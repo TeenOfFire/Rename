@@ -1,20 +1,11 @@
 class Translation(object):
     
-    START_TXT = """ <b> Hi {} ,
- I'm A Simple Rename Bot With Permanent Thumbnail And Custom Caption support!</b>
-<b>Click help button to know more about me !</b>\n 
-"""
-    PROGRESS_BAR = """\n
-╭───[**🔅Progress Bar🔅**]───⍟
-│
-├<b>📁 : {1} | {2}</b>
-│
-├<b>🚀 : {0}%</b>
-│
-├<b>⚡ : {3}/s</b>
-│
-├<b>⏱️ : {4}</b>
-╰─────────────────⍟"""
+    START_TXT = """I'm A Simple Rename Bot"""
+    PROGRESS_BAR = """<b>[🔅Progress Bar🔅]</b>
+
+<b>{1} | {2} [{0}%]/💯</b>
+
+<b>{3}/s | {4}</b>"""
     HELP_TXT = """
 <b><i><u>✨ AVAILABLE COMMANDS:</u> 
 ➢ /rename - To rename a file or video or audio
@@ -23,11 +14,6 @@ class Translation(object):
 ➢ /showcaption - To show your custom caption
 ➢ /deletethumb - To remove your custom thumbnail 
 ➢ /showthumb - To show your custom thumbnail
-<u>🔥 FEATURES:</u>
-➻ support custom caption
-➻ support custom thumbnail 
-➻ Available three upload mode  
-➻ support broadcast</i></b>
 """ 
     OWNER_COMMANDS_TXT = """
 <b><i><u>👨 OWNER COMMANDS:</u>
@@ -40,7 +26,7 @@ class Translation(object):
 ➢ /broadcast - To broadcast messages to users</i></b>
 """
     ABOUT_TXT = """
-━━━━━━━━━━━━━━━➣
+
 """
     
     THUMBNAIL_TXT = """
@@ -63,7 +49,7 @@ you can add custom thumbnail simply by sending a photo to me
     BANNED_TXT = "<b>Sorry dude, You would be banned from using me</b>"
     DOWNLOAD_START_TXT = "<b>Downloading To My server !!</b>"
     UPLOAD_START_TXT = "<b>Uploading into telegram</b>"
-    UPLOAD_SUCCESS_TXT = "<b>Thank you for Using Me ❤️</b>"
+    UPLOAD_SUCCESS_TXT = "<b>💯</b>"
     NEW_CUSTOM_THUMB_TXT = "✔️ Thumbnail Successfully Added"
     REMOVE_CUSTOM_THUMB_TXT = "🗑️ Thumbnail Successfully Removed"
     DOWNLOAD_SUCCESS_TXT = "<b>Media Downloded successfully 🎉</b>"
