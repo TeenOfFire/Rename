@@ -3,9 +3,9 @@ import os
 class Config(object):
     BANNED_USERS = []
     DOWNLOAD_LOCATION = "./DOWNLOADS" 
-    API_ID = int(os.environ.get("API_ID", 12345))
-    API_HASH = os.environ.get("API_HASH" "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    OWNER_ID = int(os.environ.get("OWNER_ID", 0))
+    API_ID = int(os.environ.get("API_ID", 1736204))
+    API_HASH = os.environ.get("API_HASH" "890d40e0f91a4de32dec2965444b2cbe")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5393784782:AAHwIe8Ri7LuWrZ0cZGI4Q7VlpZ9q5Tp-5Y")
+    OWNER_ID = int(os.environ.get("OWNER_ID", 1058015838))
     AUTH_CHANNEL = os.environ.get("AUTH_CHANNEL", None)
-    DATABASE_URI = os.environ.get("DATABASE_URI", None)
+    DATABASE_URI = os.environ.get("DATABASE_URI", mongodb+srv://Testing:Testing@cluster0.fkelfqj.mongodb.net/?retryWrites=true&w=majority)
