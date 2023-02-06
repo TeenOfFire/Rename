@@ -1,11 +1,14 @@
 class Translation(object):
     
     START_TXT = """I'm A Simple Rename Bot"""
-    PROGRESS_BAR = """<b>[🔅Progress Bar🔅]</b>
+    PROGRESS_BAR = """<b>
+[🔅Progress Bar🔅]
 
-<b>{1} | {2} [{0}%]/💯</b>
+<b>{1} | {2} 
 
-<b>{3}/s | {4}</b>"""
+[{0}%]/💯
+
+{3}/s | {4}</b>"""
     HELP_TXT = """
 <b><i><u>✨ AVAILABLE COMMANDS:</u> 
 ➢ /rename - To rename a file or video or audio
